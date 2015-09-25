@@ -7,8 +7,8 @@ permalink: /posts/:title
 timezone: Africa/Casablanca
 
 # Setup
-title: Azz-Eddine D.jek
-description: 'Keep calm and hack the world'
+title: Azz-Eddine D.Blog
+description: 'another blog by a security enthusiast'
 baseurl:     ''
 url:         'https://djekmani.github.io'
 
@@ -42,6 +42,6 @@ show_social_icons: true
 github_username: djekmani
 twitter_username: dgeeky
 
-google_analytics: 
+google_analytics: UA-68101597-1
 disqus_shortname: djekmani
 
