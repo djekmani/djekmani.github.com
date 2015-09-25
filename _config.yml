@@ -7,7 +7,7 @@ permalink: /posts/:title
 timezone: Africa/Casablanca
 
 # Setup
-title: Azz-Eddine D.Blog
+title: Azz-Eddine D'Blog
 description: 'another blog by a security enthusiast'
 baseurl:     ''
 url:         'https://djekmani.github.io'
@@ -15,7 +15,7 @@ url:         'https://djekmani.github.io'
 author:
   name: 'Azz-Eddine DJEKMANI'
   url: https://twitter.com/dgeeky
-  email: djekmani.azzdine@gmail.com
+  email: azzeddine.djekmani@um5s.net.ma
 
 exclude:
   - Gemfile
