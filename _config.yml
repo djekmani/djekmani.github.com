@@ -40,8 +40,10 @@ animated: true
 # Social icons
 show_social_icons: true
 github_username: djekmani
-twitter_username: dgeeky
+twitter_username: djekmani
 
 google_analytics: UA-68101597-1
 disqus_shortname: djekmani
+
+excerpt_separator: "\n\n\n\n\n"
 
