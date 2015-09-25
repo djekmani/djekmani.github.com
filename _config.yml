@@ -4,18 +4,18 @@ highlighter: pygments
 
 # Permalinks
 permalink: /posts/:title
-timezone: America/Sao_Paulo
+timezone: Africa/Casablanca
 
 # Setup
-title: Carlos Alexandro Becker
-description: 'Software development and related stuff, by Carlos A. Becker'
+title: Azz-Eddine D.jek
+description: 'Keep calm and hack the world'
 baseurl:     ''
-url:         'http://carlosbecker.com'
+url:         'https://djekmani.github.io'
 
 author:
-  name: 'Carlos Alexandro Becker'
-  url: https://twitter.com/caarlos0
-  email: caarlos0+formspree@gmail.com
+  name: 'Azz-Eddine DJEKMANI'
+  url: https://twitter.com/dgeeky
+  email: djekmani.azzdine@gmail.com
 
 exclude:
   - Gemfile
@@ -31,7 +31,7 @@ sass:
   sass_dir: _scss
   compressed: true
 
-paginate: 3
+paginate: 5
 
 # Custom vars
 show_related_posts: true
@@ -39,9 +39,9 @@ animated: true
 
 # Social icons
 show_social_icons: true
-github_username: caarlos0
-twitter_username: caarlos0
+github_username: djekmani
+twitter_username: dgeeky
 
-google_analytics: UA-50435491-1
-disqus_shortname: caarlos0blog
+google_analytics: 
+disqus_shortname: azzedinedgeeky
 
