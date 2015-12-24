@@ -86,7 +86,7 @@ L'exploit finale ressemble à ça :blush:
 
 {% gist djekmani/10ac151b8db0746bcec4 %}
 
-L'execution en live mode :D
+L'exécution en live mode :D
 
 ![Alt text](/public/images/exp1.png "pwn1")
 
@@ -193,7 +193,7 @@ pour ceux qui ne savent rien sur la méthode 'ret2libc' je recommande de lire ce
 Exploit finale
 {%gist djekmani/a3025232f855998f5229 %}
 
-Execution de l'exploit:
+Exécution de l'exploit:
 
 ![Alt text](/public/images/exp3.png "pwn3")
 
