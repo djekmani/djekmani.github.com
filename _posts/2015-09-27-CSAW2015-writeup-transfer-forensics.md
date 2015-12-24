@@ -22,7 +22,8 @@ I began with analyzing the packets for some fifteen minutes before finding somet
 
 It seemed interesting, it takes the string: 
 
-`FLAG  = 'flag{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}'`
+`FLAG  = 'flag{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}'` 
+
 
 
 and encrypts using the cryptosystem described by the `encode()` function :
