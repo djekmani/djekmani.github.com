@@ -65,7 +65,7 @@ statiquement avec une taille de 64bytes.
 
 Strategie d'exploitation:
 
-La vulnérabilité stack overflow dans la ligne 19 va nous permettre de controller le pointeur d'instruction et appeler la fonction `getFlag()`.
+La vulnérabilité stack overflow dans la ligne 19 va nous permettre de contrôler le pointeur d'instruction et appeler la fonction `getFlag()`.
 
 Maintenant on attaquera le binaire pour mettre en place notre payload.
 
@@ -117,7 +117,7 @@ gdb-peda$
 ```
 
 
-On est face à un binaire 32bits compilé dynamiquement avec une [pile non executable](https://en.wikipedia.org/wiki/NX_bit) et sans [ASLR](https://fr.wikipedia.org/wiki/Address_space_layout_randomization). Ça semble facile à exploiter il nous reste que le contrôle de l'eip.
+On est face à un binaire 32bits compilé dynamiquement avec une [pile non executable](https://en.wikipedia.org/wiki/NX_bit) et sans [ASLR](https://fr.wikipedia.org/wiki/Address_space_layout_randomization). Ça semble facile à exploiter il ne nous reste que le contrôle de l'eip.
 
 ```
 gdb-peda$ r 
@@ -212,7 +212,7 @@ Sur ce niveau [NX](https://en.wikipedia.org/wiki/NX_bit) et [ASLR](https://fr.wi
 
 On peut pas refaire ret2libc car ici on est face à l'ASLR randomisant 'libc' qui contient les addresses des fonctions (system , et la famille des fonctions exec). 
 
-Donc on va s'appuyer sur [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) (Return Oriented Programming), encore une fois pour ceux qui ne savent rien sur le ROP ou comment l'utiliser je vous invite à lire cet article introduisant la technique [ROP](https://www.exploit-db.com/docs/28479.pdf) sur un système 32bits.
+Donc on va s'appuyer sur le [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) (Return Oriented Programming), encore une fois pour ceux qui ne savent rien sur le ROP ou comment l'utiliser je vous invite à lire cet article introduisant la technique [ROP](https://www.exploit-db.com/docs/28479.pdf) sur un système 32bits.
 
 
 
@@ -230,12 +230,12 @@ Heureusement notre binaire est compilé statiquement, cela implique que nous avo
 {% gist djekmani/3f28bdf91dd43a0dc1e6 %}
 
 
-L'execution en live :smiley:
+L'exécution en live :smiley:
 
 
 ![Alt text](/public/images/exp4.png "exp4")
 
-Its easy n'est ce pas :grin:
+It's easy n'est ce pas :grin:
 
 
 Pour ne pas rendre l'article ennuyeux je termine ici, et je vous promet un deuxième qui termine celui-ci en traitant les challenges web et ceux du reverse enginnering.
